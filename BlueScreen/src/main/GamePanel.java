@@ -40,7 +40,7 @@ public class GamePanel extends JPanel implements Runnable{
 	}
     
 	public void setupGame() {
-		tileM.loadMap("/maps/world01.txt");
+		tileM.loadMap("/maps/world_village.txt");
 		player = new Player(this, keyH);
 	}
 
